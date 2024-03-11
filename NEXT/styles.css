@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/006/789/295/large_2x/happy-ramadan-islamic-design-template-to-celebrate-the-month-of-ramadan-vector.jpg);
+    background-position: center;
+    background-size: cover;
+}
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .message {
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    animation: fadeIn 2.8s forwards;
+  }
+
+  .ISI1 {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #111111;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  ol {
+    color: #333;
+    padding-left: 20px;
+  }
+  
+  ol li {
+    margin-bottom: 10px;
+  }
+  

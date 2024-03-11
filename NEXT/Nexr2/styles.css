@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/006/789/295/large_2x/happy-ramadan-islamic-design-template-to-celebrate-the-month-of-ramadan-vector.jpg);
+    background-position: center;
+    background-size: cover;  
+}
+  
+  .garden {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  .flower {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 0, 247, 0.8); /* Warna bunga */
+    border-radius: 50%;
+  }
+  
+  .card {
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+    padding: 18px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content {
+    text-align: center;
+    
+  }
+
+  .ISI {
+    font-size: 18px;
+    color: aliceblue;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+  h1 {
+    color: #333;
+    animation: heartbeat 1s infinite alternate; /* Animasi detak jantung */
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #111111;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes heartbeat {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.05);
+    }
+  }
+  
